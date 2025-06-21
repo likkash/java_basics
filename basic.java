@@ -352,10 +352,6 @@ public class basic {
 
 //classes and objects
 //functions
-       pulic class{
-        public static void main{
-            
-        }
-       } 
+       
     }
 }
