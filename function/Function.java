@@ -162,4 +162,43 @@ public class Function {
 
 //...................................................................................
 
+
+
+//Return Keyword:
+//In java ,the 'return' keyword is used to exir a method and optionally return a value back to the caller of the method 
+
+//Eg 1
+//shop:
+int soap(int money)
+{
+   int soap_price = 18;
+   int rem = money - soap_price;
+   return rem;  
+}
+
+public static void main(String[] args) {
+    Function amount = new Function();
+    int remainder = amount.soap(20);
+    System.out.println("The remaining amount is "+ remainder);
+
+}
+
+//...................................................................................
+
+//Eg 2
+//additon of 2 numbers:
+
+    int sum(int a , int b){
+        // int add = a+b;
+        return a+b;
+    }
+    public static void main(String[] args) {
+    Function obj = new Function();
+    int addition = obj.sum(20,30);
+    System.out.println("The addition of 20 and 30 is "+ addition);
+}
+
+//...................................................................................
+
+
 }

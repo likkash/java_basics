@@ -352,6 +352,8 @@ public class basic {
 
 //classes and objects
 //functions
+//Functions and parameters
+//Return type
        
     }
 }
