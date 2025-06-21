@@ -280,16 +280,16 @@ public class basic {
 
 
     //5
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the size");
-        int size = scan.nextInt();
-        int[] marks = new int[size];
-        System.out.println("Enter the numbers ");
-        for(int i=0;i<= size-1;i++)
-        {
-            marks[i] = scan.nextInt();
-
-        }
+        // Scanner scan = new Scanner(System.in);
+        // System.out.println("Enter the size");
+        // int size = scan.nextInt();
+        // int[] marks = new int[size];
+        // System.out.println("Enter the numbers ");
+        // for(int i=0;i<= size-1;i++)
+        // {
+        //     marks[i] = scan.nextInt();
+        
+        // }
 
 
 //Nested Loop 
@@ -352,6 +352,10 @@ public class basic {
 
 //classes and objects
 //functions
-        
+       pulic class{
+        public static void main{
+            
+        }
+       } 
     }
 }
